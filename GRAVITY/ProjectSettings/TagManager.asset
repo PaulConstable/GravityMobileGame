@@ -10,6 +10,7 @@ TagManager:
   - Rocket
   - EndLevel
   - HitboxDeath
+  - Enemy
   layers:
   - Default
   - TransparentFX

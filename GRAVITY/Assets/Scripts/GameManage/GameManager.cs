@@ -210,4 +210,68 @@ public class GameManager : MonoBehaviour {
             StarsJupiterOG = StarsJupiterIG;
         }
     }
+
+    // Mars
+    public void StarsMars() // when called add 1 to the int
+    {
+        StarsMarsIG = StarsMarsIG + 1;
+    }
+
+    // put og to in
+    public void OGMars()
+    {
+        if (StarsMarsIG > StarsMarsOG)
+        {
+            TotalStars = (TotalStars - StarsMarsOG) + StarsMarsIG;
+            StarsMarsOG = StarsMarsIG;
+        }
+    }
+
+    // Venus
+    public void StarsVenus() // when called add 1 to the int
+    {
+        StarsVenusIG = StarsVenusIG + 1;
+    }
+
+    // put og to in
+    public void OGVenus()
+    {
+        if (StarsVenusIG > StarsVenusOG)
+        {
+            TotalStars = (TotalStars - StarsVenusOG) + StarsVenusIG;
+            StarsVenusOG = StarsVenusIG;
+        }
+    }
+
+    // Mercury
+    public void StarsMercury() // when called add 1 to the int
+    {
+        StarsMercuryIG = StarsMercuryIG + 1;
+    }
+
+    // put og to in
+    public void OGMercury()
+    {
+        if (StarsMercuryIG > StarsMercuryOG)
+        {
+            TotalStars = (TotalStars - StarsMercuryOG) + StarsMercuryIG;
+            StarsMercuryOG = StarsMercuryIG;
+        }
+    }
+
+    // Earth
+    public void StarsEarth() // when called add 1 to the int
+    {
+        StarsEarthIG = StarsEarthIG + 1;
+    }
+
+    // put og to in
+    public void OGEarth()
+    {
+        if (StarsEarthIG > StarsEarthOG)
+        {
+            TotalStars = (TotalStars - StarsEarthOG) + StarsEarthIG;
+            StarsEarthOG = StarsEarthIG;
+        }
+    }
 }
