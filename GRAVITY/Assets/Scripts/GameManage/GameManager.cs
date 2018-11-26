@@ -137,7 +137,7 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        starsNeptunetxt.text = "Stars: " + StarsNeptuneIG;
+        starsNeptunetxt.text = "" + StarsNeptuneIG;
         starsUranustxt.text = "Stars: " + StarsUranusIG;
         starsSaturntxt.text = "Stars: " + StarsSaturnIG;
         starsJupitertxt.text = "Stars: " + StarsJupiterIG;
