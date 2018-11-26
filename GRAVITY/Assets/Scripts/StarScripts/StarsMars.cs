@@ -28,8 +28,8 @@ public class StarsMars : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            gm.StarsMars(); // call the function stars within the GameManager
             MusicSource.Play();
+            gm.StarsMars(); // call the function stars within the GameManager
             Destroy(gameObject); // Destroy
         }
     }

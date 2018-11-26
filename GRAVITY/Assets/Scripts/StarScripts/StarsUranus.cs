@@ -30,8 +30,8 @@ public class StarsUranus : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            gm.StarsUranus(); // call the function stars within the GameManager
             MusicSource.Play();
+            gm.StarsUranus(); // call the function stars within the GameManager
             Destroy(gameObject); // Destroy
         }
     }

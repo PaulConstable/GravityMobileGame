@@ -27,8 +27,8 @@ public class StarsSaturn : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            gm.StarsSaturn(); // call the function stars within the GameManager
             MusicSource.Play();
+            gm.StarsSaturn(); // call the function stars within the GameManager
             Destroy(gameObject); // Destroy
         }
     }

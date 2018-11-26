@@ -138,13 +138,13 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 
         starsNeptunetxt.text = "" + StarsNeptuneIG;
-        starsUranustxt.text = "Stars: " + StarsUranusIG;
-        starsSaturntxt.text = "Stars: " + StarsSaturnIG;
-        starsJupitertxt.text = "Stars: " + StarsJupiterIG;
-        starsMarstxt.text = "Stars: " + StarsMarsIG;
-        starsEarthtxt.text = "Stars: " + StarsEarthIG;
-        starsVenustxt.text = "Stars: " + StarsVenusIG;
-        starsMercurytxt.text = "Stars: " + StarsMercuryIG;
+        starsUranustxt.text = "" + StarsUranusIG;
+        starsSaturntxt.text = "" + StarsSaturnIG;
+        starsJupitertxt.text = "" + StarsJupiterIG;
+        starsMarstxt.text = "" + StarsMarsIG;
+        starsEarthtxt.text = "" + StarsEarthIG;
+        starsVenustxt.text = "" + StarsVenusIG;
+        starsMercurytxt.text = "" + StarsMercuryIG;
     }
 
 
