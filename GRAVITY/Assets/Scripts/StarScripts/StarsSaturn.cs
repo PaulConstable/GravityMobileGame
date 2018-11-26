@@ -5,13 +5,12 @@ using UnityEngine;
 public class StarsSaturn : MonoBehaviour {
 
     GameManager gm; // Reference to the GameManager script
-    public AudioClip MusicClip;
-    public AudioSource MusicSource;
+  
 
     // Use this for initialization
     void Start()
     {
-        MusicSource.clip = MusicClip;
+        
         gm = GameObject.Find("GameManager").GetComponent<GameManager>(); // "grab" the GameManager
     }
 
@@ -27,7 +26,7 @@ public class StarsSaturn : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            MusicSource.Play();
+            
             gm.StarsSaturn(); // call the function stars within the GameManager
             Destroy(gameObject); // Destroy
         }

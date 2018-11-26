@@ -70,8 +70,11 @@ public class GameManager : MonoBehaviour {
     [SerializeField] private GameObject VenusBadgeUI;
     [SerializeField] private GameObject MercuryBadgeUI;
 
+   
+
     void Start () {
 
+        
 
         StarsNeptuneIG = 0;
         StarsUranusIG = 0;
@@ -152,6 +155,7 @@ public class GameManager : MonoBehaviour {
     public void StarsNeptune() // when called add 1 to the int
     {
         StarsNeptuneIG = StarsNeptuneIG + 1;
+     
     }
 
     // put og to in

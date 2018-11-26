@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class StarSounds : MonoBehaviour {
 
-    public AudioClip MusicClip;
+    
     public AudioSource MusicSource;
 
 	// Use this for initialization
 	void Start () {
-        MusicSource.clip = MusicClip;
+        MusicSource = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
