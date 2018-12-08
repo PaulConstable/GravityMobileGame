@@ -22,7 +22,7 @@ public class StarsNeptune : MonoBehaviour {
 
 
 
-    public void OnTriggerEnter2D(Collider2D other) // when collsion with the stars do the following
+    public void OnTriggerEnter2D(Collider2D other) // when collision with the stars do the following
     {
         if (other.tag == "Player" )
         {
