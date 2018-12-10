@@ -5,6 +5,7 @@ using UnityEngine;
 public class RocketVenus : MonoBehaviour {
 
     GameManager gm; // Reference to the GameManager script
+ 
 
     [SerializeField] private GameObject PlayerVenus;
 
@@ -31,6 +32,7 @@ public class RocketVenus : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+       
             gm.OGVenus();
             RocketUp = true;
             //  SceneManager.LoadScene("Menu");

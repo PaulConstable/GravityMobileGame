@@ -11,7 +11,7 @@ public class MoveBackground : MonoBehaviour {
     void Start()
     {
         startPosition = transform.position;
-        speed = 0.04f;
+        speed = 0.03f;
     }
 
     // Update is called once per frame
