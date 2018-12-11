@@ -11,6 +11,7 @@ TagManager:
   - EndLevel
   - HitboxDeath
   - Enemy
+  - music
   layers:
   - Default
   - TransparentFX
