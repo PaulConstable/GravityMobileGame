@@ -7,6 +7,7 @@ using System;
 
 public class GameManager : MonoBehaviour {
 
+
     static public int StarsNeptuneIG;
     static public int StarsNeptuneOG;
 
@@ -74,7 +75,7 @@ public class GameManager : MonoBehaviour {
 
     void Start () {
 
-        
+      
 
         StarsNeptuneIG = 0;
         StarsUranusIG = 0;
@@ -85,52 +86,55 @@ public class GameManager : MonoBehaviour {
         StarsVenusIG = 0;
         StarsMercuryIG = 0;
 
-        menuStarsNeptunetxt.text = StarsNeptuneOG + " / 10";
-        menuStarsUranustxt.text = StarsUranusOG + " / 10";
-        menuStarsSaturntxt.text = StarsSaturnOG + " / 10";
+        menuStarsNeptunetxt.text = PlayerPrefs.GetInt("OGNeptune").ToString() + " / 10";
+        menuStarsUranustxt.text = PlayerPrefs.GetInt("OGUranus").ToString() + " / 10";
+        menuStarsSaturntxt.text = PlayerPrefs.GetInt("OGSaturn").ToString() + " / 10";
         menuStarsJupitertxt.text = StarsJupiterOG + " / 10";
         menuStarsMarstxt.text = StarsMarsOG + " / 10";
         menuStarsEarthtxt.text = StarsEarthOG + " / 10";
         menuStarsVenustxt.text = StarsVenusOG + " / 10";
         menuStarsMercurytxt.text = StarsMercuryOG + " / 10";
 
+           
 
-        if (StarsNeptuneOG == 10)
+
+
+        if (PlayerPrefs.GetInt("OGNeptune") == 10)
         {
             NeptuneBadgeUI.SetActive(true);
         }
 
-        if (StarsUranusOG == 10)
+        if (PlayerPrefs.GetInt("OGUranus") == 10)
         {
             UranusBadgeUI.SetActive(true);
         }
 
-        if (StarsSaturnOG == 10)
+        if (PlayerPrefs.GetInt("OGSaturn") == 10)
         {
             SaturnBadgeUI.SetActive(true);
         }
 
-        if (StarsJupiterOG == 10)
+        if (PlayerPrefs.GetInt("OGJupiter") == 10)
         {
            JupiterBadgeUI.SetActive(true);
         }
 
-        if (StarsMarsOG == 10)
+        if (PlayerPrefs.GetInt("OGMars") == 10)
         {
             MarsBadgeUI.SetActive(true);
         }
 
-        if (StarsEarthOG == 10)
+        if (PlayerPrefs.GetInt("OGEarth") == 10)
         {
             EarthBadgeUI.SetActive(true);
         }
 
-        if (StarsVenusOG == 10)
+        if (PlayerPrefs.GetInt("OGVenus") == 10)
         {
             VenusBadgeUI.SetActive(true);
         }
 
-        if (StarsMercuryOG == 10)
+        if (PlayerPrefs.GetInt("OGMercury") == 10)
         {
             MercuryBadgeUI.SetActive(true);
         }
@@ -163,8 +167,10 @@ public class GameManager : MonoBehaviour {
     {
         if (StarsNeptuneIG > StarsNeptuneOG)
         {
+
             TotalStars = (TotalStars - StarsNeptuneOG) + StarsNeptuneIG;
             StarsNeptuneOG = StarsNeptuneIG;
+            PlayerPrefs.SetInt("OGNeptune", StarsNeptuneOG);
         }
     }
 
@@ -181,6 +187,7 @@ public class GameManager : MonoBehaviour {
         {
             TotalStars = (TotalStars - StarsUranusOG) + StarsUranusIG;
             StarsUranusOG = StarsUranusIG;
+            PlayerPrefs.SetInt("OGUranus", StarsUranusOG);
         }
     }
 
@@ -197,6 +204,7 @@ public class GameManager : MonoBehaviour {
         {
             TotalStars = (TotalStars - StarsSaturnOG) + StarsSaturnIG;
             StarsSaturnOG = StarsSaturnIG;
+            PlayerPrefs.SetInt("OGSaturn", StarsSaturnOG);
         }
     }
     // Jupiter
