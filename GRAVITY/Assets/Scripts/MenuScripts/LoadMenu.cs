@@ -14,6 +14,6 @@ public class LoadMenu : MonoBehaviour {
     }
     void LoadScene(VideoPlayer vp)
     {
-        SceneManager.LoadScene("Loading");
+        SceneManager.LoadScene("Menu");
     }
 }
