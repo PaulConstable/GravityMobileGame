@@ -13,6 +13,6 @@ public class LoadNextAnim : MonoBehaviour {
         }
         void LoadScene(VideoPlayer vp)
         {
-            SceneManager.LoadScene("Loading");
+            SceneManager.LoadScene(SceneName);
         }
     }

@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VideoPlayer: {fileID: 699852896}
-  SceneName: Loading
+  SceneName: Menu
 --- !u!1 &699852894
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +339,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 699852894}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: df2e0583a24ac1f49a0123311e4c0b21, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 92d6f9d2c1f8a294c9b26148712dd1f0, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 203673463}
@@ -352,12 +352,14 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
   m_Url: 
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
