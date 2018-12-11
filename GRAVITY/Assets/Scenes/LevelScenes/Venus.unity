@@ -2597,6 +2597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ResetLevelUI: {fileID: 626874115}
   player: {fileID: 135312422}
+  player2: {fileID: 1851507828}
 --- !u!114 &245859467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4428,8 +4429,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e913c154e799cf499646c916a93bbdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ResetLevelUI: {fileID: 0}
+  ResetLevelUI: {fileID: 339354434}
   player: {fileID: 135312422}
+  player2: {fileID: 1851507828}
 --- !u!1001 &444550883
 Prefab:
   m_ObjectHideFlags: 0
@@ -5707,6 +5709,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 135312422}
+    - target: {fileID: 114317883690806144, guid: fd266382256874b47b88a91d0ef6ffd5,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1851507828}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd266382256874b47b88a91d0ef6ffd5, type: 2}
   m_IsPrefabAsset: 0
@@ -5796,6 +5803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ResetLevelUI: {fileID: 339354434}
   player: {fileID: 135312422}
+  player2: {fileID: 1851507828}
 --- !u!1 &565171860 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1231374120020824, guid: 4a53b46becdda4c4a8d8a6ada1024ebc,
@@ -7243,6 +7251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ResetLevelUI: {fileID: 339354434}
   player: {fileID: 135312422}
+  player2: {fileID: 1851507828}
 --- !u!1001 &708679617
 Prefab:
   m_ObjectHideFlags: 0
@@ -11582,6 +11591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ResetLevelUI: {fileID: 626874115}
   player: {fileID: 135312422}
+  player2: {fileID: 1851507828}
 --- !u!114 &1110080891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11769,6 +11779,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 135312422}
+    - target: {fileID: 114006285892635168, guid: e429613da3e2cc84f8935d20add87f73,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1851507828}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e429613da3e2cc84f8935d20add87f73, type: 2}
   m_IsPrefabAsset: 0
@@ -12190,6 +12205,11 @@ Prefab:
       propertyPath: m_Name
       value: UFOprefab
       objectReference: {fileID: 0}
+    - target: {fileID: 114281670711050346, guid: 5b029d1b10fc6434f9200d250d8fedc3,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1851507828}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b029d1b10fc6434f9200d250d8fedc3, type: 2}
   m_IsPrefabAsset: 0
@@ -16970,6 +16990,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 135312422}
+    - target: {fileID: 114006285892635168, guid: e429613da3e2cc84f8935d20add87f73,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1851507828}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e429613da3e2cc84f8935d20add87f73, type: 2}
   m_IsPrefabAsset: 0
@@ -17914,6 +17939,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ResetLevelUI: {fileID: 339354434}
   player: {fileID: 135312422}
+  player2: {fileID: 1851507828}
 --- !u!1 &1652962505 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1052041125782024, guid: a71c14e8949ef594f8b3833d8dedbe6d,
@@ -19879,6 +19905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ResetLevelUI: {fileID: 626874115}
   player: {fileID: 135312422}
+  player2: {fileID: 1851507828}
 --- !u!114 &1785350883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23262,6 +23289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ResetLevelUI: {fileID: 339354434}
   player: {fileID: 135312422}
+  player2: {fileID: 1851507828}
 --- !u!1 &2078579854 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1398710421609904, guid: 25583c7d1c01ce441ba251362d29c92f,
