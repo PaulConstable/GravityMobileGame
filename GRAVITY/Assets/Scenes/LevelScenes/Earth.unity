@@ -6139,7 +6139,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 716939208}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -49.733192, y: 3.2631626, z: 88.68869}
+  m_LocalPosition: {x: -49.733192, y: 16.2, z: 88.68869}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1405740491}
@@ -9500,6 +9500,23 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1254805775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1106028109093478, guid: 5b029d1b10fc6434f9200d250d8fedc3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1226260226}
+--- !u!114 &1254805777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254805775}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f97a5417940bea4a9bfcd94f931dd11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicSource: {fileID: 545562257}
 --- !u!1001 &1259688735
 Prefab:
   m_ObjectHideFlags: 0
