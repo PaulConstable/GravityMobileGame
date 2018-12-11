@@ -89,13 +89,13 @@ public class GameManager : MonoBehaviour {
         menuStarsNeptunetxt.text = PlayerPrefs.GetInt("OGNeptune").ToString() + " / 10";
         menuStarsUranustxt.text = PlayerPrefs.GetInt("OGUranus").ToString() + " / 10";
         menuStarsSaturntxt.text = PlayerPrefs.GetInt("OGSaturn").ToString() + " / 10";
-        menuStarsJupitertxt.text = StarsJupiterOG + " / 10";
-        menuStarsMarstxt.text = StarsMarsOG + " / 10";
-        menuStarsEarthtxt.text = StarsEarthOG + " / 10";
-        menuStarsVenustxt.text = StarsVenusOG + " / 10";
-        menuStarsMercurytxt.text = StarsMercuryOG + " / 10";
+        menuStarsJupitertxt.text = PlayerPrefs.GetInt("OGJupiter").ToString() + " / 10";
+        menuStarsMarstxt.text = PlayerPrefs.GetInt("OGMars").ToString() + " / 10";
+        menuStarsEarthtxt.text = PlayerPrefs.GetInt("OGEarth").ToString() + " / 10";
+        menuStarsVenustxt.text = PlayerPrefs.GetInt("OGVenus").ToString() + " / 10";
+        menuStarsMercurytxt.text = PlayerPrefs.GetInt("OGMercury").ToString() + " / 10";
 
-           
+
 
 
 
@@ -220,6 +220,7 @@ public class GameManager : MonoBehaviour {
         {
             TotalStars = (TotalStars - StarsJupiterOG) + StarsJupiterIG;
             StarsJupiterOG = StarsJupiterIG;
+            PlayerPrefs.SetInt("OGJupiter", StarsJupiterOG);
         }
     }
 
@@ -236,6 +237,7 @@ public class GameManager : MonoBehaviour {
         {
             TotalStars = (TotalStars - StarsMarsOG) + StarsMarsIG;
             StarsMarsOG = StarsMarsIG;
+            PlayerPrefs.SetInt("OGMars", StarsMarsOG);
         }
     }
 
@@ -252,6 +254,7 @@ public class GameManager : MonoBehaviour {
         {
             TotalStars = (TotalStars - StarsVenusOG) + StarsVenusIG;
             StarsVenusOG = StarsVenusIG;
+            PlayerPrefs.SetInt("OGVenus", StarsVenusOG);
         }
     }
 
@@ -268,6 +271,7 @@ public class GameManager : MonoBehaviour {
         {
             TotalStars = (TotalStars - StarsMercuryOG) + StarsMercuryIG;
             StarsMercuryOG = StarsMercuryIG;
+            PlayerPrefs.SetInt("OGMercury", StarsMercuryOG);
         }
     }
 
@@ -284,6 +288,7 @@ public class GameManager : MonoBehaviour {
         {
             TotalStars = (TotalStars - StarsEarthOG) + StarsEarthIG;
             StarsEarthOG = StarsEarthIG;
+            PlayerPrefs.SetInt("OGEarth", StarsEarthOG);
         }
     }
 }
