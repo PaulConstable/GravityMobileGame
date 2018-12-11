@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour {
     // text
     public Text starsNeptunetxt;
     public Text menuStarsNeptunetxt;
-    public Text starsNeptunetxtMenu;
+    
 
     public Text starsUranustxt;
     public Text menuStarsUranustxt;
@@ -146,7 +146,6 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 
         starsNeptunetxt.text = "" + StarsNeptuneIG;
-        starsNeptunetxtMenu.text = StarsNeptuneIG + " / 10 STARS COLLECTED"; 
         starsUranustxt.text = "" + StarsUranusIG;
         starsSaturntxt.text = "" + StarsSaturnIG;
         starsJupitertxt.text = "" + StarsJupiterIG;
