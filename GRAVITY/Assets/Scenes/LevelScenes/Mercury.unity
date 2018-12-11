@@ -10815,7 +10815,8 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114608600851483930, guid: 97befe5d15ea8644ea1360fc1862e40d, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 97befe5d15ea8644ea1360fc1862e40d, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1210365432 stripped
@@ -13606,7 +13607,8 @@ Prefab:
       propertyPath: m_Name
       value: UFOprefab (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114608600851483930, guid: 97befe5d15ea8644ea1360fc1862e40d, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 97befe5d15ea8644ea1360fc1862e40d, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1478603755
@@ -14490,7 +14492,8 @@ Prefab:
       propertyPath: m_Name
       value: UFOprefab (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114608600851483930, guid: 97befe5d15ea8644ea1360fc1862e40d, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 97befe5d15ea8644ea1360fc1862e40d, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1560836519 stripped
