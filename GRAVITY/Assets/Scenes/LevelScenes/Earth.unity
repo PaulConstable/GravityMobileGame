@@ -395,6 +395,11 @@ Prefab:
       propertyPath: m_Name
       value: Ufo-Beam (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114281670711050346, guid: 5b029d1b10fc6434f9200d250d8fedc3,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1051004060}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b029d1b10fc6434f9200d250d8fedc3, type: 2}
   m_IsPrefabAsset: 0
@@ -3034,6 +3039,11 @@ Prefab:
       propertyPath: m_Name
       value: Ufo-Beam (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 114281670711050346, guid: 5b029d1b10fc6434f9200d250d8fedc3,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1051004060}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b029d1b10fc6434f9200d250d8fedc3, type: 2}
   m_IsPrefabAsset: 0
@@ -3406,6 +3416,11 @@ Prefab:
       propertyPath: m_Name
       value: Ufo-Beam (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114281670711050346, guid: 5b029d1b10fc6434f9200d250d8fedc3,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1051004060}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b029d1b10fc6434f9200d250d8fedc3, type: 2}
   m_IsPrefabAsset: 0
@@ -5439,6 +5454,11 @@ Prefab:
       propertyPath: m_Name
       value: Ufo-Beam (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 114281670711050346, guid: 5b029d1b10fc6434f9200d250d8fedc3,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1051004060}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b029d1b10fc6434f9200d250d8fedc3, type: 2}
   m_IsPrefabAsset: 0
@@ -10155,6 +10175,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 635491565}
+    - target: {fileID: 114006285892635168, guid: e429613da3e2cc84f8935d20add87f73,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1051004060}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e429613da3e2cc84f8935d20add87f73, type: 2}
   m_IsPrefabAsset: 0
@@ -11006,6 +11031,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 635491565}
+    - target: {fileID: 114317883690806144, guid: fd266382256874b47b88a91d0ef6ffd5,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1051004060}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd266382256874b47b88a91d0ef6ffd5, type: 2}
   m_IsPrefabAsset: 0
@@ -13900,6 +13930,11 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 635491565}
+    - target: {fileID: 114006285892635168, guid: e429613da3e2cc84f8935d20add87f73,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1051004060}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e429613da3e2cc84f8935d20add87f73, type: 2}
   m_IsPrefabAsset: 0
@@ -14716,6 +14751,11 @@ Prefab:
       propertyPath: m_Name
       value: Ufo-Beam (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114281670711050346, guid: 5b029d1b10fc6434f9200d250d8fedc3,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1051004060}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b029d1b10fc6434f9200d250d8fedc3, type: 2}
   m_IsPrefabAsset: 0
@@ -15926,6 +15966,11 @@ Prefab:
       propertyPath: m_Name
       value: Ufo-Beam (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114281670711050346, guid: 5b029d1b10fc6434f9200d250d8fedc3,
+        type: 2}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 1051004060}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b029d1b10fc6434f9200d250d8fedc3, type: 2}
   m_IsPrefabAsset: 0

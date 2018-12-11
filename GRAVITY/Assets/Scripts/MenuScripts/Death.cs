@@ -5,7 +5,7 @@ using UnityEngine;
 public class Death : MonoBehaviour {
 
     [SerializeField] private GameObject ResetLevelUI;
-    public GameObject player;
+    public GameObject player, player2;
 
     // Use this for initialization
     void Start () {
@@ -22,6 +22,7 @@ public class Death : MonoBehaviour {
         if (other.tag == "Player")
         {
             Destroy(player);
+            Destroy(player2);
             ResetLevelUI.SetActive(true);
         }
     }
