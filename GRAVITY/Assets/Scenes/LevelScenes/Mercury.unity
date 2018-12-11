@@ -809,8 +809,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e913c154e799cf499646c916a93bbdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ResetLevelUI: {fileID: 0}
-  player: {fileID: 0}
+  ResetLevelUI: {fileID: 387263537}
+  player: {fileID: 765411714}
 --- !u!1001 &90910962
 Prefab:
   m_ObjectHideFlags: 0
@@ -1374,7 +1374,7 @@ Prefab:
     - target: {fileID: 212113123597223822, guid: ebc65233222a096488bc85dd15b1e80c,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1278143963049940, guid: ebc65233222a096488bc85dd15b1e80c, type: 2}
       propertyPath: m_TagString
@@ -5605,8 +5605,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e913c154e799cf499646c916a93bbdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ResetLevelUI: {fileID: 0}
-  player: {fileID: 0}
+  ResetLevelUI: {fileID: 387263537}
+  player: {fileID: 765411714}
 --- !u!1001 &586014447
 Prefab:
   m_ObjectHideFlags: 0
@@ -8446,7 +8446,7 @@ Prefab:
     - target: {fileID: 212113123597223822, guid: ebc65233222a096488bc85dd15b1e80c,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1278143963049940, guid: ebc65233222a096488bc85dd15b1e80c, type: 2}
       propertyPath: m_TagString
@@ -12672,7 +12672,7 @@ Prefab:
     - target: {fileID: 212113123597223822, guid: ebc65233222a096488bc85dd15b1e80c,
         type: 2}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1278143963049940, guid: ebc65233222a096488bc85dd15b1e80c, type: 2}
       propertyPath: m_TagString
@@ -14137,9 +14137,9 @@ Transform:
   m_LocalPosition: {x: 22.85694, y: -10.643414, z: -0.2109375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 84037419}
-  - {fileID: 1793849195}
   - {fileID: 585751734}
+  - {fileID: 1793849195}
+  - {fileID: 84037419}
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17279,8 +17279,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e913c154e799cf499646c916a93bbdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ResetLevelUI: {fileID: 0}
-  player: {fileID: 0}
+  ResetLevelUI: {fileID: 387263537}
+  player: {fileID: 765411714}
 --- !u!1001 &1797664719
 Prefab:
   m_ObjectHideFlags: 0
