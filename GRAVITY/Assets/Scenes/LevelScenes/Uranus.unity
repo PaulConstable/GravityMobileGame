@@ -1917,11 +1917,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc705d2683a2e94dbd90e44711084d1, type: 2}
   m_IsPrefabAsset: 0
---- !u!4 &171188792 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4932697594805878, guid: bcc705d2683a2e94dbd90e44711084d1,
-    type: 2}
-  m_PrefabInternal: {fileID: 171188791}
 --- !u!1 &172827617 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1608247931275660, guid: 6a51beabc5011ce41b37b713c81dd9e0,
@@ -13499,15 +13494,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 171188792}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4371589945416104, guid: 06d604cd7c2cf304e89104fb6dab243f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 62.6
+      value: -4.6056914
       objectReference: {fileID: 0}
     - target: {fileID: 4371589945416104, guid: 06d604cd7c2cf304e89104fb6dab243f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 99.796875
+      value: -9.016617
       objectReference: {fileID: 0}
     - target: {fileID: 4371589945416104, guid: 06d604cd7c2cf304e89104fb6dab243f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -13531,19 +13526,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4371589945416104, guid: 06d604cd7c2cf304e89104fb6dab243f, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4371589945416104, guid: 06d604cd7c2cf304e89104fb6dab243f, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1.165996
+      value: 0.03696
       objectReference: {fileID: 0}
     - target: {fileID: 4371589945416104, guid: 06d604cd7c2cf304e89104fb6dab243f, type: 2}
       propertyPath: m_LocalScale.y
-      value: 17.460789
+      value: 0.553476
       objectReference: {fileID: 0}
     - target: {fileID: 4371589945416104, guid: 06d604cd7c2cf304e89104fb6dab243f, type: 2}
       propertyPath: m_LocalScale.z
-      value: 1.165996
+      value: 0.03696
       objectReference: {fileID: 0}
     - target: {fileID: 1412747437426482, guid: 06d604cd7c2cf304e89104fb6dab243f, type: 2}
       propertyPath: m_Name

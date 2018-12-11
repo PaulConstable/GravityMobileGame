@@ -25,7 +25,7 @@ public class GravityChanger : MonoBehaviour {
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Mouse0) && canJump == true)
+        if (Input.GetKeyDown(KeyCode.Space) && canJump == true)
         {
             rb.gravityScale *= -1;
             Rotation();

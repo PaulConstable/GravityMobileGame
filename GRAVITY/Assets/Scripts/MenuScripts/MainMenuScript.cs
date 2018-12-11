@@ -6,9 +6,14 @@ using UnityEngine.Video;
 
 public class MainMenuScript : MonoBehaviour {
 
+    GameManager gm; // Reference to the GameManager script
     public VideoPlayer VideoPlayer; // Drag & Drop the GameObject holding the VideoPlayer component
     public string Levelname2;
- 
+
+    void Start()
+    {
+        gm = GameObject.Find("GameManager").GetComponent<GameManager>(); // "grab" the GameManager
+    }
 
     public void SelectLevel(string levelName)
     {
@@ -22,7 +27,13 @@ public class MainMenuScript : MonoBehaviour {
         SceneManager.LoadScene(Levelname2);
     }
 
-public void QuitGame()
+    public void resetData()
+    {
+        SceneManager.LoadScene("LogoVideo");
+        gm.reset();
+    }
+
+    public void QuitGame()
     {
         Debug.Log("Quit");
         Application.Quit();

@@ -292,4 +292,18 @@ public class GameManager : MonoBehaviour {
             PlayerPrefs.SetInt("OGEarth", StarsEarthOG);
         }
     }
+
+
+    // sesetstats
+    public void reset()
+    {
+        PlayerPrefs.SetInt("OGNeptune", 0);
+        PlayerPrefs.SetInt("OGUranus", 0);
+        PlayerPrefs.SetInt("OGSaturn", 0);
+        PlayerPrefs.SetInt("OGJupiter", 0);
+        PlayerPrefs.SetInt("OGMars", 0);
+        PlayerPrefs.SetInt("OGVenus", 0);
+        PlayerPrefs.SetInt("OGMercury", 0);
+        PlayerPrefs.SetInt("OGEarth", 0);
+    }
 }
