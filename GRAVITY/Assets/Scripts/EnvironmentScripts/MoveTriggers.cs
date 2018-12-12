@@ -6,7 +6,7 @@ public class MoveTriggers : MonoBehaviour
 {
 
     private Vector2 startPosition;
-    private float speed = 0.06f;
+    private float speed = 0.12f;
 
     // Use this for initialization
     void Start()

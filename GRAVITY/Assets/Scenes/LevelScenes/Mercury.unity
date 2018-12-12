@@ -7823,6 +7823,16 @@ Prefab:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 50160667002660642, guid: bcc705d2683a2e94dbd90e44711084d1,
+        type: 2}
+      propertyPath: m_GravityScale
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 50160667002660642, guid: bcc705d2683a2e94dbd90e44711084d1,
+        type: 2}
+      propertyPath: m_Mass
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc705d2683a2e94dbd90e44711084d1, type: 2}
   m_IsPrefabAsset: 0

@@ -8,7 +8,7 @@ public class MoveEnvironment : MonoBehaviour {
     GameManager gm; // Reference to the GameManager script
 
     private Vector2 startPosition;
-    private float speed = 0.06f;
+    private float speed = 0.12f;
 
     // Use this for initialization
     void Start()
