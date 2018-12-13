@@ -8,6 +8,7 @@ public class MainMenuScript : MonoBehaviour {
 
     GameManager gm; // Reference to the GameManager script
     public VideoPlayer VideoPlayer; // Drag & Drop the GameObject holding the VideoPlayer component
+    public GameObject ResetUI, ResetVideo;
     public string Levelname2;
 
     void Start()
@@ -31,6 +32,18 @@ public class MainMenuScript : MonoBehaviour {
     {
         SceneManager.LoadScene("LogoVideo");
         gm.reset();
+    }
+
+    public void playVideo()
+    {
+        VideoPlayer.Play();
+        Invoke("resetUI", 12f);
+   
+    }
+    public void resetUI()
+    {
+        ResetUI.SetActive(true);
+        ResetVideo.SetActive(false);
     }
 
     public void QuitGame()
